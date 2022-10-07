@@ -9,6 +9,10 @@ header{
 label{
     color-scheme: red, grey, black;
 }
+text{
+    color: white
+}
+
 .circular--portrait {
     position: relative;
     width: 200px;
@@ -17,9 +21,17 @@ label{
     border-radius: 50%;
 }
 
-.circular--portrait img {
-    width: 100%;
-    height: auto;
+
+.headers{
+    color:azure;
+    font-style: Verdana;
+    position: relative;
+}
+.paratext{
+    color: white;
+    font-style: normal;
+    position: relative;
+    size: 3in;
 }
 /* Add a black background color to the top navigation bar */
 .topnav {
@@ -31,7 +43,7 @@ label{
 .topnav a {
     float: right;
     display: block;
-    color: black;
+    color: grey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
