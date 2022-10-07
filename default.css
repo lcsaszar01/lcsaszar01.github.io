@@ -9,6 +9,18 @@ header{
 label{
     color-scheme: red, grey, black;
 }
+.circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--portrait img {
+    width: 100%;
+    height: auto;
+}
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
