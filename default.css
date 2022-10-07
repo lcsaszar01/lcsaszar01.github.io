@@ -1,8 +1,8 @@
 body{
-    background-color: gray;
+    background-color:50,54,61;
 }
 header{
-    color: red;
+    color: whitesmoke;
     font-style: normal;
     position: relative;
 }
@@ -12,7 +12,7 @@ label{
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #e9e9e9;
+    background-color: #e9e9e941;
 }
 
 /* Style the links inside the navigation bar */
