@@ -14,21 +14,20 @@ text{
 }
 
 .circular--portrait {
-    position: relative;
-    width: 200px;
-    height: 200px;
+    position: static;
+    width: 300px;
+    height: 300px;
+    opacity: 50px;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 60%;
 }
-
-
 .headers{
     color:azure;
     font-style: Verdana;
     position: relative;
 }
 .paratext{
-    color: white;
+    color: azure;
     font-style: normal;
     position: relative;
     size: 3in;
