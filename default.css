@@ -9,17 +9,27 @@ header{
 label{
     color-scheme: red, grey, black;
 }
-text{
-    color: white
-}
-
 .circular--portrait {
-    position: static;
-    width: 300px;
-    height: 300px;
-    opacity: 50px;
+    position: relative;
+    width: 200px;
+    
+    height: 200px;
     overflow: hidden;
     border-radius: 60%;
+}
+.circular--portrait img {
+    width: 100%;
+    height: auto;
+}
+.footer {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+.footer a.active {
+    background-color: red;
+    color: white;
+    padding: auto;
 }
 .headers{
     color:azure;
