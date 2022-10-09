@@ -12,9 +12,33 @@ html {
     padding: 14px 16px;
 }
 .col_left{
-    position: relative;
+    float: left;
+    position: static;
     background-color: #2e2f32;
-    width: 175px;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border: 10px solid red;
+    font-size: 17px;
+}
+.col_mid{
+    float: center;
+    position: static;
+    background-color: #2e2f32;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    padding: 5px;
+    border: 10px solid red;
+    font-size: 17px;
+}
+.col_right{
+    float: right;
+    position: static;
+    background-color: #2e2f32;
+    margin: auto;
+    width: 300px;
     height: 200px;
     padding: 5px;
     border: 10px solid red;
