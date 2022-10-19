@@ -32,6 +32,16 @@ div.desc {
     text-align: center;
     padding: 14px 16px;
 }
+.gen_box{
+    float: center;
+        position: static;
+        background-color: black;
+        margin: auto;
+        width: 1200px;
+        height: 250px;
+        padding: 5px;
+        font-size: 17px;
+}
 .col_left{
     float: left;
     position: static;
