@@ -108,7 +108,7 @@ div.gallery img {
     background-color: red;
     color: white;
     padding: auto;
-    height: inherit;
+    height: auto;
     width: auto;
 }
 .headers{
@@ -132,7 +132,7 @@ div.gallery img {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: right;
-    display: block;
+    display: flexbox;
     color: grey;
     text-align: center;
     padding: 14px 16px;
@@ -164,7 +164,7 @@ div.gallery img {
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 200px) {
 
     .topnav a,
     .topnav input[type=text] {
