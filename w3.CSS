@@ -15,7 +15,17 @@ html {
 }
 
 body {
-    margin: 0
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
 }
 
 article,
@@ -24,7 +34,6 @@ details,
 figcaption,
 figure,
 footer,
-header,
 main,
 menu,
 nav,
@@ -2187,5 +2196,46 @@ div.gallery img {
 
     .topnav input[type=text] {
         border: 1px solid rgb(38, 32, 32);
+    }
+    /* Layout styling */
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1rem auto;
+        max-width: 1200px;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    /* Column styling */
+    .column {
+        flex: 1;
+        background-color: #fff;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Titles */
+    h2 {
+        color: #333;
+        border-bottom: 2px solid #f4f4f4;
+        padding-bottom: 0.5rem;
+    }
+
+    /* Lists */
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+    }
+
+    li strong {
+        color: #555;
     }
 }
