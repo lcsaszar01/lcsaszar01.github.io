@@ -2078,7 +2078,7 @@ div.gallery img {
 .col_right {
     float: right;
     position: static;
-    background-color: #2e2f32;
+    background-color: #2196F3;
     margin: auto;
     width: 300px;
     height: 250spx;
@@ -2197,45 +2197,40 @@ div.gallery img {
     .topnav input[type=text] {
         border: 1px solid rgb(38, 32, 32);
     }
-    /* Layout styling */
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 1rem auto;
-        max-width: 1200px;
-        padding: 1rem;
-        gap: 1rem;
-    }
 
-    /* Column styling */
-    .column {
-        flex: 1;
-        background-color: #fff;
-        padding: 1rem;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+}
 
-    /* Titles */
-    h2 {
-        color: #fffdfd;
-        border-bottom: 2px solid #000000;
-        padding-bottom: 0.5rem;
-    }
+/* Column styling */
+.column {
+    flex: 1;
+    background-color: black;
+    padding: 1rem;
+    border: 1px solid #2e2f32;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-    /* Lists */
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
+/* Titles */
+h2 {
+    color: whitesmoke;
+    border-bottom: 0;
+    padding-bottom: 0.5rem;
+}
 
-    li {
-        margin-bottom: 0.5rem;
-    }
+h3 {
+    color: whitesmoke;
+}
 
-    li strong {
-        color: #ffffff;
-    }
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+li strong {
+    color: whitesmoke;
 }
